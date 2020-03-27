@@ -2,3 +2,7 @@ language: ruby
 rvm:
  - 2.2
  - jruby
+
+jobs:
+  include:
+    - script: echo Hello World
