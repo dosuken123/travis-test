@@ -2,4 +2,4 @@ language: ruby
 
 jobs:
   include:
-    - script: sleep 100 && exit 0
+    - script: exit 1
