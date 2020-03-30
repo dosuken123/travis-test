@@ -1,5 +1,9 @@
 language: ruby
 
+notificatinos:
+  email:
+    on_success: always
+
 jobs:
   include:
     - script: exit 0
